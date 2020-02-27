@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wweb</title>
+    <style>
+        .text-view{
+            color: mediumblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1 class="text-view"><p>xin chao</p></h1>
+<p class="text-view">click de lay thoi gian he thong</p>
+<button  type="button" onclick="getTime()">click</button>
+<div id="hien"></div>
+<script>
+    function getTime() {
+        var d=new Date();
+        var show=d.getDate()+d.getDay()+d.getFullYear();
+        document.getElementById("hien").innerHTML="show";
+    }
+</script>
+</body>
+</html>
