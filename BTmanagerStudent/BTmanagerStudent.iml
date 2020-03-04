@@ -11,6 +11,12 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="Manually" manifestLocation="web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar/META-INF/MANIFEST.MF" jarfileLocation="BTmanagerStudent.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties />
+        <additionalJARContents />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -20,7 +26,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.311" level="application_server_libraries" />
-    <orderEntry type="library" name="taglibs-standard-impl-1.2.5" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="taglibs-standard-spec-1.2.5" level="project" />
   </component>
 </module>

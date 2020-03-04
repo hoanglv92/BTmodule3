@@ -6,7 +6,65 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64247cd5-21bc-4fe5-a3a4-74d5d683e820" name="Default Changelist" comment="" />
+    <list default="true" id="64247cd5-21bc-4fe5-a3a4-74d5d683e820" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/artifacts/BTmanagerStudent_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/libraries/mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/libraries/taglibs_standard_spec_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/BTmanagerStudent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/src/com/btjdbc/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/src/com/btjdbc/dao/IuserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/src/com/btjdbc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/src/com/btjdbc/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTmanagerStudent/web/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentmanager/.idea/libraries/mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentmanager/web/WEB-INF/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studentmanager/web/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/.idea/artifacts/users_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/.idea/libraries/mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/src/com/codegym/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/src/com/codegym/dao/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/src/com/codegym/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/src/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/users.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/web/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btFromLogin" beforeDir="false" afterPath="$PROJECT_DIR$/../btFromLogin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentmanager/studentmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../studentmanager/studentmanager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentmanager/web/student/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../studentmanager/web/student/list.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +77,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YNi4f1zYWaa1ACXx8DcpTpWGhW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false">
@@ -113,11 +176,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -138,6 +196,7 @@
       <workItem from="1582789264036" duration="1826000" />
       <workItem from="1582791867705" duration="608000" />
       <workItem from="1582792837894" duration="927000" />
+      <workItem from="1583286647770" duration="25000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="users" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="file-copy" path="$USER_HOME$/Bản tải về/jar_files/mysql-connector-java-8.0.19.jar" />
+        </element>
       </element>
     </root>
   </artifact>

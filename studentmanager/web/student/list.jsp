@@ -31,6 +31,7 @@
             <td>${student.getAddress()}</td>
             <td><a href="students?action=edit&id=${student.getId()}">edit</a></td>
             <td><a href="students?action=delete&id=${student.getId()}">delete</a></td>
+            ${'students'}
         </tr>
     </c:forEach>
 </table>

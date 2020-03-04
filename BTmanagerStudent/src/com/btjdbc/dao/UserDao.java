@@ -6,7 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Userconnect implements Iuser {
+public class UserDao implements IuserDao {
     private static final String jdbcUrl="jdbc:mysql://localhost:3306";
     private static final String jdbcUserName="root";
     private static final String jdbcPass="123456@Abc";
@@ -15,7 +15,7 @@ public class Userconnect implements Iuser {
     private static final String select_all_user="select *from users;";
     private static final String update_user_sql="update users uname=?,email=?,country=? where id=?;";
     private static final String delete_user_sql="delete from users where id=?;";
-    public Userconnect(){
+    public UserDao(){
 
     }
     protected Connection getConnection(){
@@ -41,7 +41,7 @@ public class Userconnect implements Iuser {
             System.out.println(preparedStatement);
             preparedStatement.executeUpdate();
         }catch (SQLException e){
-            System.out.println(e);
+            printSQLException(e);
         }
     }
 

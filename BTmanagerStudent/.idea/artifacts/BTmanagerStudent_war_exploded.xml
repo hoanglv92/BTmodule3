@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="BTmanagerStudent" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Bản tải về/jar_files/mysql-connector-java-8.0.19.jar" />
+          <element id="library" level="project" name="taglibs-standard-spec-1.2.5" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.19" />
+        </element>
       </element>
     </root>
   </artifact>
