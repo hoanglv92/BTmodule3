@@ -83,14 +83,15 @@ public class UserServlet extends HttpServlet {
     private void listUser(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
         List<User> listUser = userDAO.selectAllUsers();
+        List<User>userList=userDAO.selectAllUsers();
         request.setAttribute("listUser", listUser);
+        request.setAttribute("userList",userList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("user/list.jsp");
         dispatcher.forward(request, response);
     }
     protected void insertCountry(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String country=request.getParameter("country");
         if (country.equals("")){
-            System.out.println("ban da de trong");
             RequestDispatcher dispatcher=request.getRequestDispatcher("user/search.jsp");
             dispatcher.forward(request,response);
         }else {
@@ -105,7 +106,6 @@ public class UserServlet extends HttpServlet {
                 dispatcher.forward(request,response);
             }
         }
-
     }
 
     private void showNewForm(HttpServletRequest request, HttpServletResponse response)
